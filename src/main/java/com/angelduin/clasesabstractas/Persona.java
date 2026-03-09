@@ -51,7 +51,7 @@ public abstract class Persona {
 	
 	@Override
 	public String toString() {
-		return "Nombre: " + getNombre() + "\nEdad: " + getEdad() + "\nEmail: " + getEmail() + "Direccion: " + getDir();
+		return "Nombre: " + getNombre() + "\nEdad: " + getEdad() + "\nEmail: " + getEmail() + "\nDireccion: " + getDir();
 	}
 	
 }
