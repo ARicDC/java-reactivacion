@@ -34,4 +34,6 @@ public class Empleado extends Persona implements Exportable {
 		System.out.printf("%s,%s,%s,%d,%s,%.2f\n", getNombre(), getEmail(), getDir(), getEdad(),
 												   getCargo(),getSalario());
 	}
+	
+	
 }
