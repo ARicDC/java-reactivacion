@@ -22,7 +22,6 @@ public class EjercicioColecciones {
 	public static void main(String[] args) {
 		
 		
-		
 		Empleado empleado1 = new Empleado("Angel Duin", "a-ricardo_dc@hotmail.com", "Av. Belgrano 4200", 33, "Desarrollador", 5000000);
 		Empleado empleado2 = new Empleado("Gley Nieto", "gleynieto@hotmail.com", "Av. Rivadavia 3159", 25, "Medico", 7000000);
 		Empleado empleado3 = new Empleado("Betzabeth Duin", "betzabethduin@gmail.com", "calle San Martin 1500", 39, "Odontologo", 6000000);
@@ -114,6 +113,7 @@ public class EjercicioColecciones {
 		emails.agregar(empleado5.getEmail());
 		
 		emails.listar();
+	
 	}
 	
 	public static void eliminarEntrada(ArrayList<Persona> lista, int indice) {
